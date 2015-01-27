@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>搜索</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div class="layout">
+    <!--left begin-->
+    <div class="layout_left mini_left" style="width:80px;">
+        <a href="#" class="oa_logo block"><img src="../img/logo.jpg" /></a>
+        <div class="nav_tools">
+            <ul class="tool_nav font14">
+                <li class="current"><a href="javascript:;"><span class="circle_ico font24"><i class="icon-laptop-chromebook"></i></span><em>工作台</em></a></li>
+            </ul>
+            <ul class="nav_list font14">
+                <li class="nav_li_first"><i class="icon-idoc color-a font24 marl10"></i><em class="marl20">归档</em></li>
+                <li><a href="javascript:;"><em>我的</em>申请</a></li>
+                <li class="current"><a href="javascript:;"><em>我的</em>审批</a></li>
+                <li><a href="javascript:;"><em>我的</em>经办</a></li>
+                <li><a href="javascript:;">传阅</a></li>
+            </ul>
+        </div>
+        <div class="left_bottom">
+            <ul class="tool_nav font14">
+                <li><a href="javascript:;"><span class="circle_ico font20"><i class="icon-iadd"></i></span><em>发申请</em></a></li>
+                <li><a href="javascript:;"><span class="circle_ico font20"><i class="icon-iser"></i></span><em>智能搜索</em></a></li>
+                <li><a href="javascript:;"><span class="circle_ico font20"><i class="icon-iset"></i></span><em>管理</em></a></li>
+            </ul>
+            <div class="user_info font14 clearfix">
+                <span class="UserImg floatleft marr10 ie-css3"><img src="../img/1.png"></span>
+                <p><em>欢迎回来</em></p>
+                <p><em>悍卒者</em></p>
+            </div>
+        </div>
+    </div>
+    <!--left over-->
+    <!--right begin-->
+    <div class="layout_right hidden" style="left: 81px;">
+        <!--搜索begin-->
+        <div class="search_out" style="display:none">
+            <div class="new_search clearfix">
+                <div class="clearfix">
+                    <input type="text" class="int floatleft" placeholder="申请 / 时间 / 人员">
+                    <a href="javascript:;" class="new_btn floatleft"><i class="icon-iser"></i></a>
+                </div>
+                <div class="mart10 font14">
+                    <span class="marl10">正在搜索</span>
+                    <a href="javascript:;" class="current">全站 <i class="icon-expand-more font16"></i><i class="icon-expand-less font16"></i></a>
+                    <!--下拉框begin-->
+                    <div class="ser_Results ie-css3 width-60">
+                        <ul>
+                            <li>申请</li>
+                            <li>审批</li>
+                            <li>经办</li>
+                            <li>转阅</li>
+                        </ul>
+                    </div>
+                    <!--下拉框over-->
+                </div>
+            </div>
+        </div>
+        <!--搜索over-->
+        <iframe allowtransparency="true" allowtransparency="true" style="background-color=transparent" src="search_in.html" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <!--right over-->
+    <div class="mask" style="display:none;"></div>
+</div>
+</body>
+</html>
