@@ -202,7 +202,6 @@ td .search{width:auto;}
 .processlist .pro_title a i,.processlist.current .pro_title a .icon-unlocked,.processlist.current .pro_title a .icon-lock{display: none;}
 .processlist.current .pro_title a .icon-unlocked,.processlist .pro_title a i.icon-lock{display: inline-block;}
 
-
 .item_box,.drag-box{padding:15px 0 0 10px;border:1px dashed #ccc;position:relative;margin:0 7px 30px 0;line-height:30px;color:#333;border-radius:3px;}
 .drag-box{background-color:#fefef1;border-color:#347cdc;}
 .item_box:hover,.item_box.has-touch{border-color:#2d9012;background-color:#fff;}
