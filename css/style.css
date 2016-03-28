@@ -41,6 +41,7 @@ em.color_2{color:#bbb;background:none;}
 .User{*margin-top:-40px;}
 .search_out{width:900px;height:400px;position: absolute;left:50%;top:50%;margin:-200px 0 0 -450px;z-index: 22;}
 .new_search{margin-top: 100px;}
+.new_search div.clearfix{border:1px solid #ddd;}
 .new_search input{width:90%;border:0;border-radius:0;background:#fff;height:80px;line-height:normal;font-size:20px;color:#333;}
 .new_search .new_btn{width:10%;height:80px;line-height:80px;position:relative;text-align: center;padding:0;border-radius:0;background:#fff;color:#ccc;font-size:40px;}
 .new_search .new_btn i{line-height:2;}
@@ -56,11 +57,16 @@ em.color_2{color:#bbb;background:none;}
 .icon-expand-more,.current .icon-expand-less{display: inline-block;}
 .icon-expand-less,.current .icon-expand-more{display: none;}
 .search_main{width:1000px;margin:0 auto;}
-.search_main .new_search{margin:0;}
+.search_main .new_search{margin:0;background: #fff;}
 .search_main .new_search input,.search_main .new_search .new_btn{width:5%;height:40px;line-height:40px;font-size:18px;}
-.search_main .new_search input{line-height: normal;width:95%;}
-
-
+.search_main .new_search input{line-height: normal;width:94%;}
+.search_nav a{display: inline-block;border:1px solid #ccc;height:22px;line-height:22px;border-radius:2px;padding:0 10px;color:#888;margin:10px 0;}
+.search_nav a.current,.search_nav a:hover{background:#347cdc;color:#fff;border-color:#347cdc;}
+.search_tab{width:100%;}
+.search_tab th{width:60px;padding-right:10px;line-height:20px;}
+.search_tab th,.search_tab td{padding-bottom:15px;}
+.search_tab td a{display:inline-block;margin-right:10px;color:#666;}
+.search_tab td a:hover,.search_tab td a.current{color:#347cdc;}
 .new_main{width:1000px;margin:0 auto;min-height:200px;margin-top:80px;color:#fff;}
 .top_board{width:800px;margin:0 auto;height:100px;background:url("../img/mask4.png") repeat;border-radius:3px;opacity:0.9;}
 .top_board div{height:80px;width:50%;}
@@ -241,6 +247,7 @@ em.color_2{color:#bbb;background:none;}
 .nav_normal a.current,.nav_normal a:hover{color:#337ddc;background:none;}
 .nav_normal a.No_click{color:#ccc;}
 .nav_normal a.No_click:hover{background:#eee;color:#ccc;}
+.search_main .nav_normal a{width: auto;padding:0 10px;}
 .form_right .nav_normal a,.form_right .nav_normal  .borderBt{width:33.6%;}
 .form_right .nav_normal.nav_50 a,.form_right .nav_normal.nav_50 .borderBt{width:50%;}
 /*填写表单*/
@@ -300,7 +307,6 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .Re_item .tab_nav li.current a{background-color: #347cdc;color:#fff;}
 .Re_item .tab_nav li.current{background:none;}
 .Re_item .ser_Results li{margin-left:3px;}
-.Results_r{border-left:1px solid #ccc;width:888px;}
 /*.account_tab{width:100%;color: #fff;}*/
 /*.account_tab th,.account_tab td{padding:0 0 10px 0;color:#fff;height:10px;}*/
 /*.account_tab th{padding-left:10px;}*/
@@ -981,7 +987,7 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .moreForm .jscroll .jspTrack{background: #f5f5f5;}
 
 .toggle_arrow{display: inline-block;font-size: 0;line-height: 0;border-left:5px solid #f5f5f5;border-right:5px solid #f5f5f5;border-top:5px solid #224477;margin-left:5px;position: relative;}
-.work_item{padding-bottom:70px;}
+.work_item{padding-bottom:10px;}
 .work_list{width:100%;}
 .work_list thead th{height:30px;}
 .work_list tbody th,.work_list tbody td{border-bottom:1px solid #d5d5d5;}
@@ -997,11 +1003,13 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .work_list tbody tr:hover td,.work_list tbody tr:hover th{background-color:#eee}
 .work_list tbody td .inner p.color-8,.work_list tbody td .inner p.color-8 span,.formName{height:30px;line-height:30px;}
 .work_list tbody td .inner p.color-8 span{overflow:hidden;}
-
+.Results_r table tr:hover td{background:none;}
+.Results_r table tr td .inner{margin-bottom:20px;}
+.Results_r tbody th,.Results_r tbody td{border-bottom:0;}
 .work_list tbody td .inner p.color-8 span.username{width:60px;}
 .work_list tbody td .inner p.color-8 span.applyname{width:100px;}
 .work_list.list_item tbody td .inner p.color-8{height:50px;line-height:50px;}
-.form_Preview{width:60%;padding:5px 15px;background: #fff;position: relative;}
+.form_Preview{width:60%;padding:5px 10px;background: #fff;position: relative;}
 .work_list tbody tr.current th{vertical-align: top;padding-top:18px;}
 .form_Preview table{width:100%;}
 .form_Preview table th,.form_Preview table td,.work_list tbody tr.current .form_Preview table th{padding:0;border:0;background:none;height:30px;vertical-align: inherit;}
